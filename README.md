@@ -47,4 +47,4 @@ For best performance, a regular OS install is recommended.
    3) ```com.app.driver.App``` is the main driver class. It has various functions which performs some tasks. Uncomment the functions which you need to run and comment which you don't.
    4) Run the project.
    
-   Note : I have a created 3-node Scylla cluster because I have set the replication startegy of 3.
+   Note : I have created a 3-node Scylla cluster because I have set the replication startegy of 3.
