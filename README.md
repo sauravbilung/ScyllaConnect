@@ -7,7 +7,7 @@ A project explaining connectivity to ScyllaDB and querying to it.
 3) Maven (Any latest Version)
 4) A running Scylla instance
 
-For development purpose I have run the scylla instance in a docker container. For best performance, a regular OS install is recommended.
+For development purpose the scylla instance is running on a docker container. For best performance, a regular OS install is recommended.
 
 <b> Steps for running Scylla in docker : </b>
 
@@ -40,6 +40,8 @@ For development purpose I have run the scylla instance in a docker container. Fo
      use catalog;
      select * from catalog.superheroes;
     ```
+   For more information on running Scylla on docker click [here].(https://www.scylladb.com/2016/11/09/scylla-on-docker/)
+   
    <b> Running the project : </b>
    1) Download and import the project in the IDE of choice.
    2) Change the contact points if they are different in your case in ```com.app.service.ScyllaService``` . Contact points are the list of addresses of nodes in the Scylla cluster through which a client driver communicates.
