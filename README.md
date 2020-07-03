@@ -40,7 +40,7 @@ For development purpose the scylla instance is running on a docker container. Fo
      use catalog;
      select * from catalog.superheroes;
     ```
-   For more information on running Scylla on docker click [here].(https://www.scylladb.com/2016/11/09/scylla-on-docker/)
+   For more information on running Scylla on docker click [here.](https://www.scylladb.com/2016/11/09/scylla-on-docker/)
    
    <b> Running the project : </b>
    1) Download and import the project in the IDE of choice.
