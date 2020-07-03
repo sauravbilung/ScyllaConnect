@@ -7,8 +7,7 @@ A project explaining connectivity to ScyllaDB and querying to it.
 3) Maven (Any latest Version)
 4) A running Scylla instance
 
-For development purpose I have run the scylla instance in a docker container. But please note that it is not suitable in a production environment.
-For best performance, a regular OS install is recommended.
+For development purpose I have run the scylla instance in a docker container. For best performance, a regular OS install is recommended.
 
 <b> Steps for running Scylla in docker : </b>
 
