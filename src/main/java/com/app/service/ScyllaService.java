@@ -27,7 +27,7 @@ public class ScyllaService {
 	public void createSchema() {
 
 		session.execute("CREATE KEYSPACE IF NOT EXISTS catalog "
-				+ "WITH replication = {'class': 'NetworkTopologyStrategy', 'DC1': 3}");
+				+ "WITH replication = {'class': 'NetworkTopologyStrategy', 'datacenter1': 3}");
 		session.execute(
 				"CREATE TABLE IF NOT EXISTS catalog.superheroes(first_name text, last_name text, superhero_name text, picture blob, PRIMARY KEY(first_name,last_name))");
 

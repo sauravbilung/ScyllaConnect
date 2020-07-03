@@ -34,7 +34,7 @@ public class App {
 		ArrayList<String> last_names = new ArrayList<String>(Arrays.asList("Parker", "Rogers", "Wayne"));
 		ArrayList<String> superhero_names = new ArrayList<String>(
 				Arrays.asList("Spiderman", "Captain America", "Batman"));
-		String image_location = "/home/sb/Pictures/Sample_Images/";
+		String image_location = "/home/sauravbilung/Pictures/Sample_Images/";
 		File file; // image of the character
 
 		for (int i = 0; i < 3; i++) {
@@ -55,7 +55,7 @@ public class App {
 
 		// #######################################################################################
 		// Fetch character image to a location
-		String output_location = "/home/sb/Pictures/Sample_outputs/";
+		String output_location = "/home/sauravbilung/Pictures/Sample_outputs/";
 		service.getPicture("Bruce", "Wayne", output_location);
 
 		// #######################################################################################
